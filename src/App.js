@@ -1,35 +1,21 @@
 import React from 'react'
-
-// Nav Bar (MA (logo) | Projects | About Me | Let's Talk)
+import Home from './Views/Home'
 
 function App() {
     return (
-        <div class="mt-48">
-            <div class="px-2">
-                <div class="flex -mx-2">
-                    <div class="w-2/5 px-2">
-                        <div class="bg-gray-400">
-                            <h2> Hello, I'm </h2>
-                            <h1> Marcos Aleman </h1>
-                            <h2> Full Stack Developer </h2>
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation 
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate 
-                            velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt 
-                            in culpa qui officia deserunt mollit anim id est laborum
+        <div className="mt-48">
+            <div className="px-2">
+                <div className="flex -mx-2">
+                    <div className="w-2/6 px-2">
+                        <div className="bg-gray-400">
+                            <Home />
                         </div>
                     </div>
-                    <div class="w-1/5 px-2">
-                        <div class="bg-gray-500">
-                            Filler
-                        </div>
+                    <div className="w-2/6 px-2 pl-10 border-l-2 bg-gray-400">
+                        <div className="bg-blue-400 h-full w-1 justify-center"></div>
                     </div>
-                    <div class="w-2/5 px-2">
-                        <div class="bg-gray-400">
+                    <div className="w-2/6 px-2 pr-10">
+                        <div className="bg-gray-400">
                             List
                         </div>
                     </div>
