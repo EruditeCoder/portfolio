@@ -6,14 +6,9 @@ const Home = () => {
             <h2 className="text-xl text-center"> Hello, I'm </h2>
             <h1 className="text-3xl text-center"> MARCOS ALEMAN </h1>
             <h2 className="text-2xl text-center"> Full Stack Developer </h2>
-            <p className="text-xl text-center"> Network specialist with 3 years of work experience and 
-            a proven knowledge of network administration, security, and programming.
+            <p className="text-xl text-center pt-2"> Full stack web developer & network engineer
+            with a love for minimalist design.
             </p>
-            {/* <p className="text-2xl"> Aiming to leverage my abilities 
-            to successfully provide effective solutions to complex 
-            issues in the field of network engineering 
-            and computer programming.
-            </p> */}
         </div>
     )
 }

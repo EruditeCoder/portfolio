@@ -22380,10 +22380,11 @@ video {
           animation: bounce 1s infinite;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: black;
 }
 
 @media (min-width: 640px) {

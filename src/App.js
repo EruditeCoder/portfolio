@@ -9,15 +9,23 @@ function App() {
 
                 <div className="flex">
 
-                    <div className="w-7/12 p-5 text-white">
+                    {/* Dynamic content */}
+                    <div className="w-6/12 p-5 text-white">
                         <Home />
                     </div>
                     
                     {/* Divider */}
-                    <div className="bg-gray-400 w-px h-auto justify-center mx-6">&nbsp;</div>
+                    <div className="bg-gray-400 w-px h-auto mx-6 justify-center">
+                        &nbsp;
+                    </div>
 
+                    {/* List */}
                     <div className="w-5/12 p-5 text-white">
                         <List />
+                    </div>
+
+                    <div className="w-px wr- bg-gray-400">
+                        &nbsp;
                     </div>
 
                 </div>
