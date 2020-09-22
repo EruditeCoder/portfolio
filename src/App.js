@@ -21,7 +21,7 @@ function App() {
                     </div>
 
                     {/* List */}
-                    <div className="w-5/12 p-5">
+                    <div className="w-5/12 p-5 mr-12">
                         <List />
                     </div>
 
