@@ -6,7 +6,6 @@ import List from './Components/List'
 import Links from './Components/Links'
 import { 
     BrowserRouter as Router,
-    Link,
     Switch,
     Route
 } from 'react-router-dom'
@@ -20,7 +19,7 @@ function App() {
                     <div className="flex h-64">
 
                         {/* Dynamic content */}
-                        <div className="w-6/12 p-5">
+                        <div className="w-6/12 p-6">
                             <Switch>
                                 <Route exact path="/">
                                     <Home />

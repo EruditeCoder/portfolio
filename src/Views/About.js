@@ -3,17 +3,17 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <h2 className="text-xl text-center"> Hello, I'm </h2>
-            <h1 className="text-3xl text-center"> MARCOS ALEMAN </h1>
-            <h2 className="text-2xl text-center italic"> Full Stack Developer </h2>
-            <p className="text-xl text-center pt-2"> Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p className="text-xl text-center pt-2">
+                Looking to work with others who have the same obsession with constant 
+                improvement and that love to find new, innovative ways, to solve problems.
             </p>
-            <p className="text-xl text-center pt-2"> Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.
+            <p className="text-xl text-center pt-2">
+                I have a fascination for knowledge and, thus, spend a lot of my time learning 
+                about many different kinds of topics from <i> computer programming</i> (<b>JavaScript </b>
+                [React & Next], <b>PHP</b> [Laravel], & <b> MongoDB</b>), <i>networking</i>, 
+                <i> information security</i>, and <i> cloud computing</i> along with other areas of interest 
+                such as, psychology, philosophy, and the factors that impact productivity, efficiency, learning, 
+                and behaviour.
             </p>
         </div>
     )

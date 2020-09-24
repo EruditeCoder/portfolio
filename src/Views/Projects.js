@@ -2,25 +2,11 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <div>
-            <h2 className="text-xl text-center"> Hello, I'm </h2>
-            <h1 className="text-3xl text-center"> MARCOS ALEMAN </h1>
-            <h2 className="text-2xl text-center italic"> Full Stack Developer </h2>
-            <ul>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
-                <li>Test 1</li>
+            <ul className="text-xl text-center flex flex-col justify-between h-full pt-6 pb-6">
+                <li><a href="https://github.com/EruditeCoder/MarketAnalysisDash">Market Analysis Dashboard</a> <span className="text-gray-700">(in progress)</span></li>
+                <li><a href="https://github.com/EruditeCoder/Sthenos-Mock-Up">Sthenos Workout</a> <span className="text-gray-700">(mock up)</span></li>
+                <li><a href="https://github.com/EruditeCoder/Fairy-Tails-Mock-Up">Fairy Tails Adoptions</a> <span className="text-gray-700">(mock up)</span></li>
             </ul>
-        </div>
     )
 }
 
