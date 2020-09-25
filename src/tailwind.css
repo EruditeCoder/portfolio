@@ -22387,10 +22387,6 @@ body {
   background-color: black;
 }
 
-span {
-  color: #161614;
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
