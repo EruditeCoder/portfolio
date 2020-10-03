@@ -5,6 +5,7 @@ import {
 import { useHistory } from 'react-router-dom'
 
 const List = () => {
+    
     const history = useHistory()
     
     const [home, setHome] = useState("home")
@@ -47,7 +48,7 @@ const List = () => {
                     break
             }
         })
-        
+
     }, [history])
 
     return (

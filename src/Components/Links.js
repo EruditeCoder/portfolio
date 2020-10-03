@@ -2,7 +2,7 @@ import React from 'react'
 
 const Links = () => {
     return (
-        <div className="flex flex-col justify-between h-full pt-8 pb-8">
+        <div className="flex md:flex-col justify-around md:h-full md:pt-8 md:pb-8">
             
             {/* Resume */}
             <a href="./docs/Resume.pdf">
