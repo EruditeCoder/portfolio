@@ -9,20 +9,20 @@ const Menu = () => {
     const [showMenu, setShowMenu] = useState(false)
 
     const maskTransitions = useTransition(showMenu, null, {
-        from: { position:'absolute', opacitity: 0 },
-        enter: { opacity: 1},
-        leave: { opacity:0},
+        from: { position: 'absolute', opacitity: 0 },
+        enter: { opacity: 1 },
+        leave: { opacity: 0 },
     })
 
     const menuTransitions = useTransition(showMenu, null, {
         from: { opacity: 0, transform: 'translateX(-100%)' },
-        enter: { opacity: 1, transform: 'translateX(0%)'},
-        leave: { opacity: 0, transform: 'translateX(-100%)'},
+        enter: { opacity: 1, transform: 'translateX(0%)' },
+        leave: { opacity: 0, transform: 'translateX(-100%)' },
     })
     
     return (
         <nav>
-            <span className="text-xl bg-green-300">
+            <span className="text-3xl">
                 <FontAwesomeIcon 
                     icon={faBars}
                     onClick={() => setShowMenu(!showMenu)}
@@ -45,25 +45,22 @@ const Menu = () => {
                 <animated.div
                     key={key}
                     style={props}
-                    className="fixed bg-white top-0 left-0 w-2/5 h-full z-50 shadow"
+                    className="fixed bg-black top-0 left-0 w-3/4 h-full z-50 shadow"
                 >
                     <div>
-                        <div className="font-bold py-3">
-                            Main Menu
-                        </div>
-                        <ul className="text-xl text-center flex flex-col justify-between h-full pt-6 pb-6">
+                        <ul className="text-xl text-center h-64 flex flex-col justify-around">
                             <li>
-                                <Link to="/">
+                                <Link to="/" onClick={() => setShowMenu(false)}>
                                     home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about-me">
+                                <Link to="/about-me" onClick={() => setShowMenu(false)}>
                                     about
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/projects">
+                                <Link to="/projects" onClick={() => setShowMenu(false)}>
                                     projects
                                 </Link>
                             </li>

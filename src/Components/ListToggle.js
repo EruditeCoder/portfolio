@@ -1,4 +1,4 @@
-const ListToggle = (event) => {
+const ListToggle = () => {
     const history = useHistory()
     
     const [home, setHome] = useState("home")

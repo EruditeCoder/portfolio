@@ -14,10 +14,15 @@ import {
 const App = () => {
     return (
         <main>
-        
             <div className="text-white min-h-screen md:min-h-0 flex flex-col md:flex-row">
+                
                 <Router>
-                    <div className="px-2 pt-12 md:pt-0 md:mt-48 flex-grow">
+                    
+                    <header className="pt-4 pr-6 flex justify-end items-center md:hidden text-white">
+                        <Menu />
+                    </header>
+
+                    <div className="px-2 md:pt-0 md:mt-48 flex-grow">
 
                         <div className="flex flex-col md:flex-row md:h-64">
 
@@ -59,13 +64,9 @@ const App = () => {
 
                     </div>
                 
-                <div className="mb-5 md:hidden">
-                    <Links />
-                </div>
-
-                <div class="md:hidden fixed top-0 right-0">
-                    <Menu />
-                </div>
+                    <div className="mb-5 md:hidden">
+                        <Links />
+                    </div>                    
                 </Router>
             </div>
 
